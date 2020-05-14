@@ -11,7 +11,7 @@
       if(document.querySelectorAll('.owl-dot')[0].className === 'owl-dot active'){
          document.querySelector('.container1').classList.add('container1_img1');
          document.querySelector('.container1').classList.remove('container1_img2');
-      }else if((document.querySelectorAll('.owl-dot')[1].className === 'owl-dot active'){
+      }else if((document.querySelectorAll('.owl-dot')[1].className === 'owl-dot active')){
          document.querySelector('.container1').classList.remove('container1_img1');
          document.querySelector('.container1').classList.add('container1_img2');
       }
